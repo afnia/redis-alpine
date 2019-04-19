@@ -1,5 +1,10 @@
 Redis Alpine
 
+Docker:
+```
+https://cloud.docker.com/u/afnia/repository/docker/afnia/redis-alpine
+```
+
 ```
 FROM alpine:latest
 
