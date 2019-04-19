@@ -7,10 +7,6 @@ https://cloud.docker.com/u/afnia/repository/docker/afnia/redis-alpine
 
 ```
 FROM alpine:latest
-
-#RUN addgroup -S redis && adduser -S -G redis redis\
-#    && mkdir -p /redis/data /redis/modules\
-#    && chown redis:redis /redis/data /redis/modules
 RUN set -x\
     && apk add --no-cache --virtual .build-deps\
     curl\
