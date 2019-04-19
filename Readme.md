@@ -1,6 +1,13 @@
 Redis Alpine
 
 Docker:
+
+```
+docker pull afnia/redis-alpine
+```
+
+url:
+
 ```
 https://cloud.docker.com/u/afnia/repository/docker/afnia/redis-alpine
 ```
